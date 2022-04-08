@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTestMailSender", "WpfTestMailSender\WpfTestMailSender.csproj", "{F168DEBB-5021-4E20-B09F-D5A0F1C517EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSender", "MailSender\MailSender.csproj", "{7C51D85F-0429-465E-8B32-DA3A158C8954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F168DEBB-5021-4E20-B09F-D5A0F1C517EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F168DEBB-5021-4E20-B09F-D5A0F1C517EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F168DEBB-5021-4E20-B09F-D5A0F1C517EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F168DEBB-5021-4E20-B09F-D5A0F1C517EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C51D85F-0429-465E-8B32-DA3A158C8954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C51D85F-0429-465E-8B32-DA3A158C8954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C51D85F-0429-465E-8B32-DA3A158C8954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C51D85F-0429-465E-8B32-DA3A158C8954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D874834-CCF4-4E27-A8EA-49A6FE41CF3B}
+	EndGlobalSection
+EndGlobal
