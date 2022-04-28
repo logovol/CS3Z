@@ -49,6 +49,8 @@ namespace WPFTests
                 Debug.WriteLine("Операция чтения файла была отменена");                
                 progress.Report(0);
             }
+            StartAction.IsEnabled = true;
+            CancelAction.IsEnabled = false;
         }
 
         private static async Task<int> GetWordsCountAsync(string FileName, IProgress<double> Progress = null, CancellationToken Cancel = default)
